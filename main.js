@@ -6,7 +6,7 @@ function RPS(){
 	var userChoice = prompt("Do you choose rock, paper or scissors?");
 	var computerChoice = Math.random();
 	var outcome = function(result){
-		document.getElementById("outcome").innerHTML = result;
+		document.getElementById("outcome").innerHTML += result + '<br>';
 	}
 
 	outcome("User: " + userChoice);
