@@ -2,6 +2,9 @@ html {
 	font-family: helvetica, sans-serif;
 	background-color: #ccc;
 }
-.div {
-	
+
+/* Where the main content lives */
+.container {
+	width: 800px;
+	margin: 0 auto;
 }
