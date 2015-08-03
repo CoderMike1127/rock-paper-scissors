@@ -60,3 +60,16 @@ function RPS(){
 	compare(userChoice, computerChoice);
 }
 RPS();
+
+
+/*********************
+
+Features:
+1. If user types something other than rock, paper, or scissors, give an error message and prompt again
+2. Add clickable pictures
+3.
+
+
+
+
+*********************/
